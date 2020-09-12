@@ -256,6 +256,10 @@ a{
     width: 3rem;
 }
 
+.igc>a{
+    color: black;
+}
+
 /* width 1080 */
 @media screen and (max-width: 1080px){
     /* menu */
