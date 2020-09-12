@@ -1,0 +1,554 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.logoHeader{
+    height: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.sethead{
+    background-color: rgba(0, 0, 0, 0.90);
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    padding: 0.5rem;
+}
+
+.HeaderCont{
+    display: flex;
+    padding: 0.1rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    width: 40rem;
+}
+
+.HeaderCont>div{
+    color: #c4c4c4;
+    transition: 0.3s ease-in-out;
+}
+
+.HeaderCont>div:hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.main{
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.name{
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.readmore{
+    background-color: #c4c4c4;
+    /* width: max-content; */
+    border: 0.2rem;
+    border-color: black;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 0.3rem;
+    font-size: 0.7rem;
+    width: 5rem;
+    text-align: center;
+    box-shadow: 0 0 5px gray;
+    transition: 0.3s ease-in-out;
+}
+
+.readmore:hover{
+    box-shadow: 5px 5px 20px gray;
+    transition: 0.3s ease-in-out;
+}
+
+.imgme{
+    width: inherit;
+    align-content: center;
+}
+
+.round{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100rem;
+    border-color: black;
+    border-style: solid;
+    overflow: hidden;
+    z-index: -1;
+     /* pakai overflow untuk foto didalam supaya tidak pecah */
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out;
+}
+
+.floating {   
+    animation-name: floating; 
+    animation-duration: 3s; 
+    animation-iteration-count: infinite; 
+    animation-timing-function: ease-in-out; 
+    margin-left: 30px; 
+    margin-top: 5px; 
+} 
+  
+@keyframes floating { 
+    0% { transform: translate(0,  0px); } 
+    50%  { transform: translate(0, 15px); } 
+    100%   { transform: translate(0, -0px); }     
+} 
+
+.namenrm{
+    padding-left: 1.5rem;
+}
+
+.profmenu{
+    display: flex;
+    justify-content: center;
+    margin: 5rem;
+    padding-bottom: 5rem;
+}
+
+.abtme{
+    background-color: orange;
+    padding: 0.2rem;
+    width: 10rem;
+    border-radius: 50rem;
+    text-align: center;
+    font-weight: bold;
+    margin-left: -2rem;
+    box-shadow: 5px 5px 8px gray;
+}
+
+.waves{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.wave{
+    width: auto;
+    padding-left: -115rem;
+}
+
+.black{
+    background-color: #222222;
+    font-size: 1rem;
+    color: #c4c4c4;
+    height: fit-content;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.black>div{
+    /* padding-top: 3rem; */
+    text-align: center;
+    font-size: 3rem;
+    justify-items: center;
+}
+
+.white{
+    background-color: white;
+    font-size: 1rem;
+    color: black;
+    height: fit-content;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.white>div{
+    /* padding-top: 3rem; */
+    text-align: center;
+    font-size: 3rem;
+    justify-items: center;
+}
+
+.blacks{
+    font-size: 0;
+}
+
+.whites{
+    font-size: 0;
+}
+
+.abtcont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abtcont>div{
+    padding: 1.5rem;
+}
+
+.abtme2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.linked{
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
+.linked:hover{
+    opacity: 1;
+}
+
+.git{
+    opacity: 0.6;
+    transition: 0.3s ease-in-out;
+}
+
+.git:hover{
+    opacity: 1;
+}
+
+.skilcont{
+    display: flex;
+    flex-direction: row;
+}
+
+.skilcont>div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #c4c4c4;
+    color: black;
+    border-style: solid;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    box-shadow: 0px 0px 2px 4px #2c2c2c;
+    align-self: center;
+}
+
+.mainskilcont>div{
+    margin: 1rem;
+}
+
+.contactcont{
+    display: flex;
+    flex-direction: row;
+}
+
+.contactcont>div{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* background-color: #c4c4c4;
+    color: black;
+    border-style: solid; */
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.mainconcont>div{
+    margin: 1rem;
+}
+
+.contactcont>div>img{
+    width: 3rem;
+}
+
+/* width 1080 */
+@media screen and (max-width: 1080px){
+    /* menu */
+    /* .HeaderCont{
+        display: flex;
+        padding: 0.1rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 0.7rem;
+        justify-content: space-between;
+        width: 37rem;
+    } */
+
+    /* profil */
+    .round{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100rem;
+        border-color: black;
+        border-style: solid;
+        overflow: hidden;
+         /* pakai overflow untuk foto didalam supaya tidak pecah */
+    }
+    
+    .name{
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .readmore{
+        background-color: #c4c4c4;
+        /* width: max-content; */
+        border: 0.2rem;
+        border-color: black;
+        border-style: solid;
+        border-radius: 1rem;
+        padding: 0.2rem;
+        font-size: 0.6rem;
+        width: 5rem;
+        text-align: center;
+        box-shadow: 0 0 5px gray;
+        transition: 0.3s ease-in-out;
+    }
+
+    .black>div{
+        /* padding-top: 3rem; */
+        text-align: center;
+        font-size: 2rem;
+        justify-items: center;
+    }
+
+    .white>div{
+        /* padding-top: 3rem; */
+        text-align: center;
+        font-size: 2rem;
+        justify-items: center;
+    }
+
+    .abtme2{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+    .skilcont>div{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #c4c4c4;
+        color: black;
+        border-style: solid;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1.1rem;
+        box-shadow: 0px 0px 2px 4px #2c2c2c;
+        align-self: center;
+    }
+
+    .contactcont>div{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* background-color: #c4c4c4;
+        color: black;
+        border-style: solid; */
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 1.1rem;
+        align-self: center;
+    }
+
+    .contactcont>div>img{
+        width: 2.6rem;
+    }
+
+    /* end */
+}
+
+/* width 600 */
+@media screen and (max-width: 600px){
+    /* profil */
+    .round{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 100rem;
+        border-color: black;
+        border-style: solid;
+        overflow: hidden;
+         /* pakai overflow untuk foto didalam supaya tidak pecah */
+    }
+    
+    .name{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .readmore{
+        background-color: #c4c4c4;
+        /* width: max-content; */
+        border: 0.2rem;
+        border-color: black;
+        border-style: solid;
+        border-radius: 1rem;
+        padding: 0.2rem;
+        font-size: 0.5rem;
+        width: 5rem;
+        text-align: center;
+        box-shadow: 0 0 5px gray;
+        transition: 0.3s ease-in-out;
+    }
+
+    .black>div{
+        /* padding-top: 3rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        justify-items: center;
+    }
+
+    .white>div{
+        /* padding-top: 3rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        justify-items: center;
+    }
+
+    .abtme2{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .skilcont>div{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #c4c4c4;
+        color: black;
+        border-style: solid;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.9rem;
+        box-shadow: 0px 0px 2px 4px #2c2c2c;
+        align-self: center;
+    }
+
+    .contactcont>div{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* background-color: #c4c4c4;
+        color: black;
+        border-style: solid; */
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.9rem;
+        align-self: center;
+    }
+
+    .contactcont>div>img{
+        width: 2.3rem;
+    }
+
+    /* end */
+}
+
+/* width 435 */
+@media screen and (max-width: 435px){
+    /* profil */
+    .profmenu{
+        flex-wrap: wrap;
+    }
+
+    .profmenu>div{
+        margin: 0.5rem;
+    }
+
+    .HeaderCont{
+        justify-content: space-evenly;
+    }
+
+    .mn1{
+        display: none;
+    }
+
+    .mn2{
+        display: none;
+    }
+
+    .mn3{
+        display: none;
+    }
+
+    .mn4{
+        display: none;
+    }
+
+    .round{
+        width: 5rem;
+        height: 5rem;
+        border-radius: 100rem;
+        border-color: black;
+        border-style: solid;
+        overflow: hidden;
+         /* pakai overflow untuk foto didalam supaya tidak pecah */
+    }
+    
+    .name{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .readmore{
+        background-color: #c4c4c4;
+        /* width: max-content; */
+        border: 0.2rem;
+        border-color: black;
+        border-style: solid;
+        border-radius: 1rem;
+        padding: 0.2rem;
+        font-size: 0.5rem;
+        width: 5rem;
+        text-align: center;
+        box-shadow: 0 0 5px gray;
+        transition: 0.3s ease-in-out;
+    }
+
+    .black>div{
+        /* padding-top: 3rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        justify-items: center;
+    }
+
+    .white>div{
+        /* padding-top: 3rem; */
+        text-align: center;
+        font-size: 1.5rem;
+        justify-items: center;
+    }
+
+    .abtme2{
+        font-size: 0.9rem;
+        text-align: center;
+    }
+
+    .skilcont{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .skilcont>div{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        background-color: #c4c4c4;
+        color: black;
+        border-style: solid;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.9rem;
+        box-shadow: 0px 0px 2px 4px #2c2c2c;
+        align-self: center;
+        margin: 0.5rem;
+    }
+
+    .contactcont>div{
+        padding-left: 1rem;
+        padding-right: 1rem;
+        /* background-color: #c4c4c4;
+        color: black;
+        border-style: solid; */
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        font-size: 0.9rem;
+        align-self: center;
+    }
+
+    .contactcont>div>img{
+        width: 2.3rem;
+    }
+
+    /* end */
+}
